@@ -50,9 +50,9 @@ $active_record = TRUE;
 
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'publicco_3pbcrm';
-$db['default']['password'] = '#g8R,xtr=RBa';
-$db['default']['database'] = 'publicco_crm15';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
 
 
 $db['default']['dbdriver'] = 'mysql';
