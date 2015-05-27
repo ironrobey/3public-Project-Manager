@@ -1,0 +1,57 @@
+version 3.0 - August, 2014
+- Daily attendance module for students integrated
+- Neon Admin Interface integrated
+- Ajax based login 
+- Unified login input for all account
+- Password hashed for login credentials
+- RTL (Right To Left) text alignment integrated
+- Software default language settings new option
+- Data Validation added for input values
+- Student birthday: year-month-date picker
+- Minor bug fixes
+
+Version 2.0 – December 13, 2013
+- Updated language conversion system
+- 20 new language packs added ( english,bengali,spanish,arabic,dutch,russian,chinese,turkish,portugese,hungarian,french,greek,german,italian,thai,urdu,hindi,latin,indonesian,japanese,korean )
+- Password field shown for easier account management from admin
+- Email sending issue fixed
+- Firefox profile view css issue fixed (teacher, student)
+- class creation issue fixed
+
+Version 1.0 – November 12, 2013
+- Initial release
+
+
+
+bugs:
+- class creation problem ✓ views/admin/class.php
+- icon font missing in firefox ✓ watch online for google font
+- student profile fix firefox ✓ views/admin/modal_student_profile.php
+- teacher profile fix firefox ✓ views/admin/modal_teacher_profile.php
+- reset email sending fails(goes to spam) ✓ add `system_email` field in `settings` table controllers/login.php
+- sex -> gender, remove blood type, religion ✓ controllers/admin.php , views/admin/modal_edit_teacher,student.php , teacher.php, modal_*profile.php
+- month date in white text on white background. fix bug in dashboard
+
+
+feature update:
+
+- school website
+- study materials, pdf, doc file upload
+- sms api clickatell : https://www.clickatell.com/apis-scripts/scripts/php/
+- accountant account( teacher payment, salary)
+- desktop app executable
+- sync online with local
+- image gd library
+- Birthday wisher
+- 20+ language pack ✓ 
+- messaging system
+- set default language from admin
+- password field exposed of student, teacher, parent account management ✓ 
+- batch account opening from excel sheet
+- student promotion to next year classes
+- options to disable module
+- constraints of teachers for accessing only his classes or subjects
+- upload document or study materials
+- teachers can't modify other teachers' profile. only watch
+- online actiation system ✓ 
+- daily attendance

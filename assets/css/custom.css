@@ -1,0 +1,36 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body {
+	
+}
+
+.login-page{ background: #222; }
+
+.login-page .login-form .form-group .input-group{ background: #222; border: 1px solid #303641; }
+
+.login-page .login-form .form-group .btn-login{ background: #222; border: 1px solid #303641; }
+
+.login-page .login-form .form-group .btn-login:hover, 
+.login-page .login-form .form-group .btn-login:active{ background: #222; }
+
+.hot,
+.cold,
+.warm{
+	font-weight: bold;
+}
+
+.hot{
+	color: #c9302c;
+}
+
+.warm{
+	color: #f0ad4e;
+}
+
+.cold{
+	color: #5bc0de;
+}
